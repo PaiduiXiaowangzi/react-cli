@@ -1,0 +1,50 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "cross-env NODE_ENV=development webpack serve --config ./config/webpack.config.js",
+    "prod": "cross-env NODE_ENV=production webpack --config ./config/webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 version",
+    ">1%",
+    "not dead"
+  ],
+  "dependencies": {
+    "antd": "^4.20.3",
+    "less-loader": "^12.2.0",
+    "postcss-loader": "^8.1.1",
+    "postcss-preset-env": "^10.0.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router": "^6.27.0",
+    "react-router-dom": "^6.27.0",
+    "sass": "^1.80.3",
+    "sass-loader": "^16.0.2",
+    "stylus-loader": "^8.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.15",
+    "babel-loader": "^9.2.1",
+    "babel-preset-react-app": "^10.0.1",
+    "copy-webpack-plugin": "^12.0.2",
+    "cross-env": "^7.0.3",
+    "css-minimizer-webpack-plugin": "^7.0.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.1",
+    "image-minimizer-webpack-plugin": "^4.1.0",
+    "imagemin": "^9.0.0",
+    "mini-css-extract-plugin": "^2.9.1",
+    "react-refresh": "^0.14.2",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
